@@ -1,0 +1,29 @@
+#navbar{
+  border: 2px solid black;
+  height: 100px;
+  background: pink;
+}
+
+#jumbotron{
+  border: 2px solid black;
+  height: 400px;
+  background: lightblue;
+}
+
+#icon{
+  border: 2px solid black;
+  height: 100px;
+  background: limegreen;
+}
+
+  #contact{
+    border: 2px solid black;
+    height: 100px;
+    background: limegreen;
+  }
+
+  #map{
+    border: 2px solid black;
+    height: 100px;
+    background: limegreen;
+  }
