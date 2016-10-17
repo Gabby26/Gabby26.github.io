@@ -1,3 +1,9 @@
+.ovo-font-white{
+  font-family: 'Ovo', serif;
+  color: #fff;
+}
+
+
 #navbar{
   border: 2px solid black;
   height: 65px;
@@ -5,32 +11,30 @@
   padding-top: 10px;
 }
 
-img {
-  height: 100%;
-  width: 100%;
-
-  position: absolute;
-  z-index: -2;
-}
-
-.jumbotron{
-  font-family: 'Ovo', serif;
-  background: transparent;
-  color: #fff;
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url(../img/pexels-umbrellaphoto-large.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
 
 }
+
       .jumbotron h1{
         margin-left: 25%;
         font-size: 6em;
-        text-shadow: 10px #fff;
+        text-shadow: 0.8em rgba(0, 0, 0, 0.5);
 
       }
 
       .jumbotron p{
+        font-family: 'Ovo', serif;
+        color: #fff;
         margin-left: 32%;
         margin-top: 5%;
         font-size: 2em;
-        text-shadow: 10px #fff;
+        text-shadow:0.8em rgba(0, 0, 0, 0.5);
 
       }
 
@@ -38,14 +42,10 @@ img {
 
 
 .jumbotron .btn{
+
   background-color: blue;
-  opacity: 0.6;
-  margin-left: 8%;
-  transform: rotate(-40deg);
-  border-top-left-radius: 45%;
-    border-bottom-left-radius: 45%;
-    border-bottom-right-radius: 45%;
-  height: 100px;
+  opacity: 0.8;
+;
 }
 
 
