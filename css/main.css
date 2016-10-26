@@ -85,14 +85,16 @@
   height: 175px;
   text-align: center;
   padding-top: 40px;
-  }
+}
 
   .fa-facebook-square:before, .fa-linkedin:before{
     font-size: 4em;
     text-shadow: 0.75px 0.75px 1px rgba(255, 255, 255, 0.8);
-    padding-left: 10px;
+    padding-left: 25px;
+  }
 
-
+  a{
+    padding-left: 30px;
   }
 
   .fa-facebook-square:before{
@@ -107,12 +109,54 @@
   #contact{
     border: 2px solid black;
     height: 175px;
-
-
   }
+
+
 
   #map{
     border: 2px solid black;
     height: 175px;
+
+  }
+
+@media (max-width: 768px) {
+  #navbar .navbar-default{
+    background-color: #000;
+    color: #fff;
+  }
+
+  .item{
+    height: 200px;
+  }
+  .carousel-font{
+    font-size: 2em;
+    margin-left: none;
+  }
+
+  .col-xs-12{
+    border: 20px;
+  }
+
+  .map-iframe{
+    visibility: hidden;
+  }
+
+  #footer{
+    background-color: #000;
+    color: #fff;
+    margin: 0.8px;
+    height: inherit;
+    width: inherit;
+    padding: 20px;
+      }
+  #icon{
+    padding: 2px;
+    height: 75px;
+  }
+  #map{
+    display: none;
+    background-color: #000;
+  }
+
 
   }
