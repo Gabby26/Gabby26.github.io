@@ -2,7 +2,7 @@
   background-image: url(../img/resume-background.jpeg);
   background-position: center;
   background-size: cover;
-  height: 600px;
+  height: auto;
   position: absolute;
   z-index: -3;
   border: 3px 3px rgba(17, 13, 10, 1);
